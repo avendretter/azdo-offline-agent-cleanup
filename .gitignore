@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# PowerShell logs and temp files
+*.log
+*.tmp
+
+# VS Code settings
+.vscode/
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows Folder config file
+[Dd]esktop.ini
+
+# Windows Recycle Bin used on file shares
+$RECYCLE.BIN/ 
