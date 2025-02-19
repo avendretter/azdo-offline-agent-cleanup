@@ -36,6 +36,7 @@ If ($Pools) {
 
     if ($Agents) {
       $OfflineAgents = ($Agents | Where-Object { $_.status -eq 'offline'})
+      Write-Output "Found $($OfflineAgents.Count) Offline Agents in Pool $($Pool)"
       foreach ($OfflineAgent in $OfflineAgents) {
         $OfflineAgentName = $OfflineAgent.Name
         $OfflineAgentId = $OfflineAgent.id
